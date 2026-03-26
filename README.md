@@ -44,21 +44,20 @@ QLoRA achieves the best accuracy, Macro-F1, BERTScore, and lowest inference late
 ---
 
 ## Repository Structure
-```
-MedQA-Adaptation-Strategies-COMP5801H/
-├── notebooks/
-│   ├── experiments.ipynb   # Sections 1-6: all experiments and training
-│   └── analysis.ipynb      # Section 7-8: results analysis and conclusion
-├── results/
-│   ├── zero_shot_results.csv
-│   ├── few_shot_results.csv
-│   ├── cot_results.csv
-│   ├── rag_k1_results.csv
-│   ├── rag_k3_results.csv
-│   ├── rag_k5_results.csv
-│   └── qlora_results.csv
-└── README.md
-```
+
+    MedQA-Adaptation-Strategies-COMP5801H/
+    ├── notebooks/
+    │   ├── experiments.ipynb   — Sections 1 to 6, all experiments and training
+    │   └── analysis.ipynb      — Sections 7 and 8, results analysis and conclusion
+    ├── results/
+    │   ├── zero_shot_results.csv
+    │   ├── few_shot_results.csv
+    │   ├── cot_results.csv
+    │   ├── rag_k1_results.csv
+    │   ├── rag_k3_results.csv
+    │   ├── rag_k5_results.csv
+    │   └── qlora_results.csv
+    └── README.md
 
 ---
 
@@ -78,11 +77,10 @@ Due to Kaggle's 12-hour session timeout, the project is split across two noteboo
 ---
 
 ## Dependencies
-```
-transformers accelerate bitsandbytes
-datasets evaluate
-bert-score rouge-score
-faiss-cpu sentence-transformers
-peft trl
-pandas numpy matplotlib seaborn scikit-learn tqdm
-```
+
+    transformers accelerate bitsandbytes
+    datasets evaluate
+    bert-score rouge-score
+    faiss-cpu sentence-transformers
+    peft trl
+    pandas numpy matplotlib seaborn scikit-learn tqdm
